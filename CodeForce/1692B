@@ -1,0 +1,38 @@
+#include<bits/stdc++.h>
+#define ll long long
+#define pb push_back
+#define mp make_pair
+
+using namespace std;
+
+int main()
+{
+    ll t;
+    cin>>t;
+    while(t--)
+    {
+        ll n,i,k=0,sum=0,m,ma=0,mi=0,l1,p,r2,a,b,c,d,df=0,x,q,y,j=0,ii;
+        vector<int> v,v2;
+        //string s,s1;
+       
+       	 int arr[100];
+       	  set < int > s;
+       	 
+       cin>>a;
+       for(i=0;i<a;i++)
+       {
+       	cin>>x;
+       	 s.insert( x ) ;
+       }
+      
+        k=a-s.size();
+        if(k%2==0)
+         cout<<s.size()<<endl;
+        else
+          cout<<s.size()-1<<endl;
+
+
+    }
+}
+//Alhamdulilah...
+//Author Md.Eakub Islam
